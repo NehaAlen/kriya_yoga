@@ -27,16 +27,16 @@ export default function Carousel() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="images/shutterstock_2352568737.jpg" alt="Nature 1" />
+          <img src="Images/shutterstock_2352568737.jpg" alt="Nature 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="images/139067.jpg" alt="Nature 2" />
+          <img src="Images/139067.jpg" alt="Nature 2" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="images/OIP.jpg" alt="Nature 2" />
+        <img src="Images/OIP.jpg" alt="Nature 2" />
         </SwiperSlide>
         <SwiperSlide>
-        <img src="images/shutterstock_2352568737.jpg" alt="Nature 1" />
+        <img src="Images/shutterstock_2352568737.jpg" alt="Nature 1" />
         </SwiperSlide>
       </Swiper>
     </div>

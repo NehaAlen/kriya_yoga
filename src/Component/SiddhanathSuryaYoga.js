@@ -17,7 +17,7 @@ function SiddhanathSuryaYoga() {
 <div className="relative w-full p-2 md:p-2 border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 ">
         {/* Container for image */}
         <img
-          src="images/shutterstock_2352568737.jpg"
+          src="Images/shutterstock_2352568737.jpg"
           className="w-full h-fit"
           alt="Nature 1"
         />
@@ -74,16 +74,16 @@ function SiddhanathSuryaYoga() {
             className="mySwiper1 "
           >
             <SwiperSlide>
-              <img src="images/shutterstock_2352568737.jpg" alt="Nature 1" />
+              <img src="Images/shutterstock_2352568737.jpg" alt="Nature 1" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="images/139067.jpg" alt="Nature 2" />
+              <img src="Images/139067.jpg" alt="Nature 2" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="images/OIP.jpg" alt="Nature 2" />
+              <img src="Images/OIP.jpg" alt="Nature 2" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="images/shutterstock_2352568737.jpg" alt="Nature 1" />
+              <img src="Images/shutterstock_2352568737.jpg" alt="Nature 1" />
             </SwiperSlide>
           </Swiper>
         </div>
