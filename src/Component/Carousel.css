@@ -1,0 +1,89 @@
+#Carousel { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #F1E4D7;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* src/Carousel.css */
+
+/* Container styling */
+.carousel-container {
+  width: 100%;
+  max-width: 100vw; /* Ensures container doesn't exceed viewport width */
+  margin: 0 auto;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Swiper styling */
+.mySwiper {
+  width: 100%;
+  height: auto;
+}
+
+/* Image styling */
+.mySwiper img {
+  width: 100%;
+  height: 100%; /* Ensures the image maintains its aspect ratio */
+  object-fit: cover; /* Adjust this to 'contain' if you want to show the whole image without cropping */
+}
+
+/* Additional responsive adjustments */
+@media (max-width: 384px) {
+  .mySwiper img {
+    height: 300px; /* Example fixed height for mobile */
+    object-fit: fill;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mySwiper img {
+    height: 800px; /* Example fixed height for mobile */
+    object-fit: fill;
+  }
+}
+
+/* SiddhanathSuryaYoga css style */
+
+/* Swiper styling */
+.mySwiper1 {
+  width: 100%;
+  height: auto;
+}
+
+/* Image styling */
+.mySwiper1 img {
+  width: 100%;
+  height: 100%; /* Ensures the image maintains its aspect ratio */
+  object-fit: cover; /* Adjust this to 'contain' if you want to show the whole image without cropping */
+}
+
+/* Additional responsive adjustments */
+@media (max-width: 384px) {
+  .mySwiper1 img {
+    height: 300px; /* Example fixed height for mobile */
+    object-fit: fill;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mySwiper1 img {
+    height: 400px; /* Example fixed height for mobile */
+    width: 600px;
+    object-fit: fill;
+  }
+  .mySwiper1{
+    width: 600px;
+  }
+}
+

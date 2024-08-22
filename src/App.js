@@ -1,23 +1,46 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
+import Header from './Component/Header';
+import Teaching from "./Component/Teaching/Teaching";
+import Home from "./Component/Home";
+import SiddhanathSuryaYoga from "./Component/SiddhanathSuryaYoga";
+import KundaliniKriyaYoga from "./Component/Teaching/KundaliniKriyaYoga";
+import SiddhanathHamsaYoga from "./Component/Teaching/SiddhanathHamsaYoga";
+import EarthPeaceMeditation from "./Component/Teaching/EarthPeaceMeditation";
+import Yoga from "./Component/Teaching/Yoga";
+import Event from "./Component/Event";
+import Ayurveda from "./Component/Ayurveda";
+import Footer from "./Component/Footer";
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  
+      <Router>
+      <Header/>
+        {/* <Banner/> */}
+      
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/Teaching" element={<Teaching />} />
+          <Route exact path="/KundaliniKriyaYoga" element={<KundaliniKriyaYoga />} />
+          <Route exact path="/SiddhanathHamsaYoga" element={<SiddhanathHamsaYoga />} />
+          <Route exact path="/SiddhanathSuryaYoga" element={<SiddhanathSuryaYoga />} />
+          <Route exact path="/EarthPeaceMeditation" element={<EarthPeaceMeditation />} />
+          <Route exact path="/Yoga" element={<Yoga />} />
+          <Route exact path="/Event" element={<Event />} />
+          <Route exact path="/Ayurveda" element={<Ayurveda />} />
+          
+
+          
+        </Routes>
+        <Footer/>
+      </Router>
+      
+      
+      
     </div>
   );
 }
