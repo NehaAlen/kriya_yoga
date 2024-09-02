@@ -88,7 +88,7 @@ const Carousel2 = () => {
         </div>
       </div> */}
         <div
-          class="grid grid-cols-1 md:grid-cols-3 gap-7 bg-[#91b4ae] mt-5"
+          class="grid grid-cols-1 md:grid-cols-3 gap-7 bg-[#BFCFCC] mt-5"
           style={{ width: "100%", height:"100%"}}
         >
           <div class="relative max-w-3xl mx-5 my-5 md:my-20 hover:scale-105">

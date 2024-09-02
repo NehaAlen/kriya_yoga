@@ -15,6 +15,7 @@ module.exports = {
       backgroundOpacity: {
         '85': '0.85',
       },
+      
 
       
     },

@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import './Teaching.css';
 
 // Import required modules
 import { Keyboard, Pagination, Navigation, Autoplay } from "swiper/modules";
@@ -28,28 +29,28 @@ function SiddhanathSuryaYoga() {
       </div>
 
 
-    <div className="m-3">
+    <div className="surya_para  m-3">
       {/* Container for the image and text */}
       <div className="flex flex-col md:flex-row items-center justify-between md:m-10 ">
         {/* Text section */}
         <div className="flex-1 px-5 md:px-0  md:mx-20">
-          <h1 className="font-Poppins text-5xl text-center font-light mt-5  text-red-900">
+          <h1 className=" text-center  mt-5  ">
             Siddhanath Surya Yoga:
           </h1>
-          <h1 className="font-Poppins text-5xl text-center font-light mt-5 text-red-900">
+          <h1 className="text-center mt-5">
             Pranic Healing with Solar Power
           </h1>
-          <p className="text-xl text-center mt-6 tracking-wide">
+          <p className=" text-center mt-6 tracking-wide">
             Yogiraj Siddhanath gives us Surya Yoga, a dynamic osmosis of Solar
             healing. He is hailed by many around the world as one of the
             foremost Solar Masters of the 20th century, giving to the modern age
             his Surya Yoga suited to the people of today busy in the rough and
             tumble of daily life.
           </p>
-          <h1 className="font-Poppins font-light text-3xl text-center mt-7 text-red-900">
+          <h1 className=" text-center mt-7">
             Learn the technique
           </h1>
-          <p className="text-xl text-center mt-3 tracking-wide">
+          <p className="text-center mt-3">
             Below we offer a video of Yogiraj demonstrating the basic version of
             this powerful practice so that all may learn and utilize the
             technique for their spiritual progress. This technique of Surya Yoga
