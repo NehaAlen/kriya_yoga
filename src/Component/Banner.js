@@ -55,7 +55,7 @@ function Banner() {
             // role="alert"
             style={{ opacity: currentAlertIndex === index ? 1 : 0, position: currentAlertIndex === index ? 'relative' : 'absolute' }}
             key={index}
-            className={`absolute top-0 left-0 w-full ${alert.className} transition-opacity duration-1000 ease-in-out ${currentAlertIndex === index ? 'opacity-100' : 'opacity-0'}`}
+            className={`absolute top-0 left-0  ${alert.className} transition-opacity duration-0 ease-in-out ${currentAlertIndex === index ? 'opacity-100' : 'opacity-0'}`}
             role="alert"
             // style={{ height: 'auto' }} // Ensure height fits content
           >

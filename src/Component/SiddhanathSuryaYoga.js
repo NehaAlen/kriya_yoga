@@ -15,7 +15,8 @@ function SiddhanathSuryaYoga() {
   return (
       
 <>
-<div className="relative w-full p-2 md:p-2 border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700 ">
+  <div className="m-2 md:m-5">
+<div className="relative w-full  border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700 ">
         {/* Container for image */}
         <img
           src="Images/shutterstock_2352568737.jpg"
@@ -26,6 +27,7 @@ function SiddhanathSuryaYoga() {
         <h1 className="absolute left-1/3 inset-x-0 md:bottom-1/3 bottom-0 md:h-16 transform -translate-x-1/2 -translate-y-1/2 text-white text-lg md:text-5xl font-bold text-left bg-opacity-50  p-4 m-10 rounded">
           Siddhanath Surya Yoga
         </h1>
+      </div>
       </div>
 
 
