@@ -11,6 +11,8 @@ import Yoga from "./Component/Teaching/Yoga";
 import Event from "./Component/Event";
 import Ayurveda from "./Component/Ayurveda";
 import Footer from "./Component/Footer";
+import Our_Community from "./Component/Our_Community";
+import Yogiraj_siddhanath from "./Component/Yogiraj_siddhanath";
 
 
 
@@ -32,6 +34,8 @@ function App() {
           <Route exact path="/Yoga" element={<Yoga />} />
           <Route exact path="/Event" element={<Event />} />
           <Route exact path="/Ayurveda" element={<Ayurveda />} />
+          <Route exact path="/Our_Community" element={<Our_Community />} />
+          <Route exact path="/Yogiraj_siddhanath" element={<Yogiraj_siddhanath />} />
           
 
           

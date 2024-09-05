@@ -14,7 +14,7 @@
     color: rgb(35, 35, 35);
     font-family: "Graphik Arabic", Tahoma, sans-serif;
 }
-.surya_para h1
+.surya_para h1,h2
 {
     margin: 0px;
     color: rgb(100, 145, 120);
@@ -31,6 +31,7 @@
 .surya_para
 {
     /* background: #F8F2EB; */
+    
 }
 *, ::before, ::after {
     box-sizing: inherit;

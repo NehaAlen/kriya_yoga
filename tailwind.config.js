@@ -10,7 +10,7 @@ module.exports = {
       },
       backgroundColor: 
       {
-        'black': 'rgba(171,139,101)',
+        
       },
       backgroundOpacity: {
         '85': '0.85',

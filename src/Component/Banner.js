@@ -8,33 +8,33 @@ function Banner() {
     {
       className: "bg-[#FED36F] text-black px-4 py-3",
       Subject: "Events ",
-      message: "1/4 - This is the first Event.",
-      information: <Link to="/Event">LEARN MORE</Link>,
-      details: <Link to="/Event">DISMISS</Link>
+      message: "1/4 - New Life Awakening Kundalini Kriya Yoga Retreat (Basic + Advanced) (Pune) (Oct 2024).",
+      information: <a href="/Event" target="_blank" rel="noopener noreferrer">LEARN MORE</a>,
 
     },
     {
       className: "bg-[#FED36F] text-black px-4 py-3 ",
       Subject: "Events ",
-      message: "2/4 - This is the Second Event.",
-      information: <Link to="/Event">LEARN MORE</Link>,
-      details: <Link to="/Event">DISMISS</Link>
+      message: "2/4 - Shivranjan Saakshaat (Benefactor’s Retreat) with Yogiraj, Pune (Nov 2024)",
+      information: <a href="/Event" target="_blank" rel="noopener noreferrer">LEARN MORE</a>,
+
     },
     {
       className: "bg-[#FED36F] text-black px-4 py-3",
       Subject: "Events ",
-      message: "3/4 - This is the Third Event.",
-      information: <Link to="/Event">LEARN MORE</Link>,
-      details: <Link to="/Event">DISMISS</Link>
+      message: "3/4 - New Life Awakening Kundalini Kriya Yoga New Year Retreat (Basic + Advanced) (Pune) (Dec 2024)",
+      information: <a href="/Event" target="_blank" rel="noopener noreferrer">LEARN MORE</a>,
+
     },
     {
       className: "bg-[#FED36F] text-black px-4 py-3",
       Subject: "Events ",
-      message: "4/4 - This is the Fourth Event.",
-      information: <Link to="/Event">LEARN MORE</Link>,
-      details: <Link to="/Event">DISMISS</Link>
+      message: "4/4 - Shivranjan Saakshaat (Benefactors Retreat) with Yogiraj, Pune (Jan 2025).",
+      information: <a href="/Event" target="_blank" rel="noopener noreferrer">LEARN MORE</a>,
       
+
     }
+ 
   ];
 
   useEffect(() => {

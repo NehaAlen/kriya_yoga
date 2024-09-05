@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay'; // Import autoplay styles
 
-import './Carousel.css';
+import './Carousel.css';  
 
 // Import required modules
 import { Pagination, Navigation, Autoplay } from 'swiper/modules';
