@@ -7,9 +7,9 @@ function Footer() {
 
 <footer class=" dark:bg-gray-900 mt-20 ">
     <div class="max-w-screen-xl">
-      <div class="grid grid-cols-2 gap-8 px-4 py-6 md:grid-cols-4">
+      <div class="grid grid-cols-2 gap-4 px-4 py-6 md:grid-cols-4">
         <div>
-            <h2 class="mb-6 text-2xl font-semibold text-gray-900  dark:text-white">Quick Links</h2>
+            <h2 class="mb-6 sm:text-2xl text-xl font-semibold text-gray-900  dark:text-white">Quick Links</h2>
             <ul class="text-black-50 dark:text-gray-400 font-medium">
                 <li class="mb-4">
                     <a href="/" class="  hover:underline">Home</a>
@@ -30,7 +30,7 @@ function Footer() {
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-2xl font-semibold text-gray-900  dark:text-white">Teachings Links</h2>
+            <h2 class="mb-6 sm:text-2xl text-xl font-semibold text-gray-900  dark:text-white">Teachings Links</h2>
             <ul class="text-black dark:text-gray-400 font-medium">
             <li class="mb-4">
                     <a href="/KundaliniKriyaYoga" class="hover:underline">Kundalini Kriya Yoga</a>
@@ -51,7 +51,7 @@ function Footer() {
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-2xl font-semibold text-gray-900  dark:text-white">Help Center</h2>
+            <h2 class="mb-6 sm:text-2xl text-xl font-semibold text-gray-900  dark:text-white">Help Center</h2>
             <ul class="text-black dark:text-gray-400 font-medium">
                 <li class="mb-4">
                     <a href="https://www.instagram.com/accounts/login/" class="hover:underline">Instagram</a>
@@ -71,7 +71,7 @@ function Footer() {
         </div>
 
         <div>
-            <h2 class="mb-6 text-2xl font-semibold text-gray-900  dark:text-white">Legal</h2>
+            <h2 class="mb-6 sm:text-2xl text-xl font-semibold text-gray-900  dark:text-white">Legal</h2>
             <ul class="text-black dark:text-gray-400 font-medium">
                 <li class="mb-4">
                     <a href="#" class="hover:underline">Privacy Policy</a>

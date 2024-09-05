@@ -1,63 +1,34 @@
-import React from "react";
-import { useState } from "react";
+import React from 'react';
 
 const Our_Community = () => {
   return (
     <div>
-      <div class=" py-16 sm:py-24 lg:py-32 md:m-5 m-2 bg-orange-400">
-        <div class="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 lg:grid-cols-12 lg:gap-8 lg:px-8">
-          <div class="max-w-xl text-2xl font-bold tracking-tight  sm:text-3xl lg:col-span-7">
+      <div className="flex flex-col md:flex-row mt-10">
+        {/* Text Block */}
+        <div className="md:w-2/3 md:pt-10 md:mx-4 md:pr-5">
+          <h2 className="text-4xl font-medium mb-4 ">
+            This is our community page
+          </h2>
+          <p className="text-lg text-gray-700 py-2 md:px-16 px-2">
+            Yogiraj is one of the rare Masters available to all sincere truth
+            seekers as he bestows upon them the three graces of Shivapat,
+            Shaktipat, and Pranapat transmissions.
+          </p>
+
+        </div>
+        {/* Form Block */}
+        <div className="w-fit md:w-1/3 p-14 md:mr-10">
+          <form class="max-w-md">
             
-            <p class="inline sm:block lg:inline xl:block">
-              JOIN OUR COMMUNITY
-            </p>
-          </div>
-          <form class="w-full max-w-md lg:col-span-5 lg:pt-2">
-            <div class="flex gap-x-4">
-              <label for="email-address" class="sr-only ">
-               Name
-              </label>
-              <input
-                id="name"
-                name="name"
-                type="name"
-                autocomplete="name"
-                required=""
-                class="font-bold min-w-0 flex-auto rounded-md border-2  px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
-                placeholder="Enter your name"
-              />
-             
+            <div class="flex items-center border-b border-[#649178] m-4 py-2">
+                <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="email" id="email" placeholder="Please enter your Email" aria-label="email"/>
+                <button
+                  className="bg-[#649178] hover:bg-teal-700 text-sm text-white py-2 px-4 rounded"
+                  type="button"
+                  >
+                  Subscribe
+                </button>      
             </div>
-            <div class="flex gap-x-4 my-10">
-              <label for="email-address" class="sr-only ">
-                Email address
-              </label>
-              <input
-                id="email-address"
-                name="email"
-                type="email"
-                autocomplete="email"
-                required=""
-                class="font-bold min-w-0 flex-auto rounded-md border-2  px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
-                placeholder="Enter your email"
-              />
-             
-            </div>
-                      <div class="flex justify-center items-center  " >
-                       <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                       Subscribe
-                      </button>
-          </div>
-            {/* <p class="mt-4 text-sm leading-6 ">
-              We care about your data. Read our{" "}
-              <a
-                href="https://www.swellai.com/privacy"
-                class="font-semibold "
-              >
-                privacy&nbsp;policy
-              </a>
-              .
-            </p> */}
           </form>
         </div>
       </div>
@@ -66,3 +37,4 @@ const Our_Community = () => {
 };
 
 export default Our_Community;
+ 
