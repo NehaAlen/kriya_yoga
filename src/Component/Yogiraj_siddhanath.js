@@ -37,7 +37,7 @@ const Yogiraj_siddhanath = () => {
         {/* Text Block */}
         <div className="w-full md:w-2/3 md:pt-10 md:mx-4 md:pr-5">
           <h2 className="text-xl md:text-3xl lg:text-4xl font-medium mb-4 py-3">
-          Yogiraj’s Contribution to the Treasury of Knowledge
+            Yogiraj’s Contribution to the Treasury of Knowledge
           </h2>
           <p className="text-left md:text-lg text-gray-700 px-2">
             Yogiraj is one of the rare Masters available to all sincere truth
