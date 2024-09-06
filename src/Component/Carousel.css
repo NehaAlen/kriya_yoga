@@ -40,16 +40,16 @@ body {
 }
 
 /* Additional responsive adjustments */
-@media (max-width: 384px) {
+@media (max-width: 500px) {
   .mySwiper img {
-    height: 300px; /* Example fixed height for mobile */
+    height: 300px; 
     object-fit: fill;
   }
 }
 
 @media (min-width: 1024px) {
   .mySwiper img {
-    height: 800px; /* Example fixed height for mobile */
+    height: 900px; 
     object-fit: fill;
   }
 }
@@ -79,12 +79,55 @@ body {
 
 @media (min-width: 1024px) {
   .mySwiper1 img {
-    height: 400px; /* Example fixed height for mobile */
-    width: 600px;
+    height: 500px; /* Example fixed height for mobile */
+    width: 800px;
     object-fit: fill;
   }
   .mySwiper1{
-    width: 600px;
+    width: 800px;
   }
 }
 
+/* text css */
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+}
+
+.mySwiper {
+  position: relative;
+}
+
+.swiper-slide {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 400; 
+  /* background: rgba(0, 0, 0, 0.5);  */
+  /* padding: 15px; */
+  border-radius: 5px;
+  text-align: center;
+  width: 80%;
+  box-sizing: border-box;
+  font-family: Cursive ;
+  font-style: italic;
+  /* background-color: bisque; */
+}
+@media (max-width: 768px) { /* Adjust the max-width value to fit your mobile breakpoint */
+  .quote {
+    font-size: 1rem; /* Smaller font size for mobile view */
+    top: 75%; /* Adjust vertical position if needed */
+    width: 100%;
+  }
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import './Teaching.css';
 
+
 const Yogiraj_siddhanath = () => {
   return (
     <div className="surya_para px-4 sm:px-6 lg:px-8">
@@ -9,7 +10,7 @@ const Yogiraj_siddhanath = () => {
         {/* Image Block */}
         <div className="w-full md:w-1/3 md:p-4">
           <img
-            src="Images/nath-praying-1030x648.jpg"
+            src="Images/India-2012-2406.jpg"
             alt="Description"
             className="w-full h-auto object-cover rounded-lg"
           />
@@ -58,7 +59,7 @@ const Yogiraj_siddhanath = () => {
         {/* Image Block */}
         <div className="w-full md:w-1/3 md:p-4">
           <img
-            src="Images/nath-praying-1030x648.jpg"
+            src="Images/USA-2011-4786.jpg"
             alt="Description"
             className="w-full h-auto object-cover rounded-lg"
           />
@@ -70,7 +71,7 @@ const Yogiraj_siddhanath = () => {
         {/* Image Block */}
         <div className="w-full md:w-1/3 md:p-4">
           <img
-            src="Images/nath-praying-1030x648.jpg"
+            src="Images/USA-2011-1446.jpg"
             alt="Description"
             className="w-full h-auto object-cover rounded-lg"
           />
@@ -117,7 +118,7 @@ const Yogiraj_siddhanath = () => {
         {/* Image Block */}
         <div className="w-full md:w-1/3 md:p-4">
           <img
-            src="Images/nath-praying-1030x648.jpg"
+            src="Images/Nath with Mercury Shivaling (High Res).jpg"
             alt="Description"
             className="w-full h-auto object-cover rounded-lg"
           />

@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "../Teaching.css";
+import '../Carousel.css';  
 
 // Import required modules
 import { Keyboard, Pagination, Navigation, Autoplay } from "swiper/modules";
@@ -24,18 +25,19 @@ function EarthPeaceMeditation() {
           />
         </div>
       </div>
+      <h2 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-medium mt-5">
+      Learn the Earth Peace Meditation Online – The Peace Mantra given by Gurunath for Earth Peace
+            </h2>
 
       {/* Content Section */}
       <div className="surya_para m-3">
         <div className="flex flex-col md:flex-row items-center justify-between md:m-10">
           <div className="flex-1 px-4 md:px-6 lg:px-8 xl:px-12">
-            <h2 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-medium mt-5">
-              Learn the Earth Peace Meditation Online –
-            </h2>
-            <h2 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-medium mt-5">
-              The Peace Mantra given by Gurunath for Earth Peace
-            </h2>
-            <h2 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-medium mt-5">
+            {/* <h2 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-medium mt-5">
+              Learn the Earth Peace Meditation Online – The Peace Mantra given by Gurunath for Earth Peace
+            </h2> */}
+           
+            <h2 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-medium ">
               Individual Full Moon Meditations
             </h2>
 
@@ -57,7 +59,7 @@ function EarthPeaceMeditation() {
               every full moon, join our email list.
             </p>
 
-            <h2 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-medium text-left mt-7">
+            <h2 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-medium text-left sm:text-center mt-7">
               Community Humanity Meditations
             </h2>
             <p className="text-sm sm:text-base md:text-lg lg:text-xl text-left mt-3">

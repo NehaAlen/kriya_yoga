@@ -10,54 +10,54 @@ const Carousel2 = () => {
         >
           
           <div class="relative max-w-3xl mx-5 my-5 md:my-20 hover:scale-105">
-          <a href="/SiddhanathHamsaYoga">
+          <a href="/Yogiraj_siddhanath">
             < img
               class="h-100 w-full object-cover rounded-md"
-              src="https://images.unsplash.com/photo-1680725779155-456faadefa26"
+              src="Images/USA-2011-1728.jpg"
               alt="Random image"
             />
 
             
-            <div class="absolute inset-0 bg-gray-700 opacity-60 rounded-md"></div>
+            {/* <div class="absolute inset-0 bg-gray-700 opacity-60 rounded-md"></div> */}
             <div class="absolute inset-0 flex items-end justify-center mb-5">
               <h2 class="text-white text-3xl font-bold ">
-                Get Lost in Mountains
+                Yogiraj Siddhanath
               </h2>
 
             </div>
             </a>
           </div>
           <div class="relative max-w-3xl mx-5 my-5 md:my-20 hover:scale-105">
-          <a href="/SiddhanathHamsaYoga">
+          <a href="/KundaliniKriyaYoga">
             < img
               class="h-100 w-full object-cover rounded-md"
-              src="https://images.unsplash.com/photo-1680725779155-456faadefa26"
+              src="Images/USA-2011-3968.jpg"
               alt="Random image"
             />
 
             
-            <div class="absolute inset-0 bg-gray-700 opacity-60 rounded-md"></div>
+            {/* <div class="absolute inset-0 bg-gray-700 opacity-60 rounded-md"></div> */}
             <div class="absolute inset-0 flex items-end justify-center mb-5">
               <h2 class="text-white text-3xl font-bold ">
-                Get Lost in Mountains
+              Kundalini Kriya Yoga
               </h2>
 
             </div>
             </a>
           </div>
           <div class="relative max-w-3xl mx-5 my-5 mb-10 md:my-20 hover:scale-105">
-          <a href="/SiddhanathHamsaYoga">
+          <a href="/SiddhanathSuryaYoga">
             < img
               class="h-100 w-full object-cover rounded-md"
-              src="https://images.unsplash.com/photo-1680725779155-456faadefa26"
+              src="Images/USA-2012-7903.jpg"
               alt="Random image"
             />
 
             
-            <div class="absolute inset-0 bg-gray-700 opacity-60 rounded-md"></div>
+            {/* <div class="absolute inset-0 bg-gray-700 opacity-60 rounded-md"></div> */}
             <div class="absolute inset-0 flex items-end justify-center mb-5">
               <h2 class="text-white text-3xl font-bold ">
-                Get Lost in Mountains
+              Siddhanath Surya Yoga
               </h2>
 
             </div>

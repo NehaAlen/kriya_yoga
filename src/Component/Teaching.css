@@ -27,11 +27,16 @@
     unicode-bidi: isolate;
     box-sizing: inherit;
 }
-.surya_para
-{
-    /* background: #F8F2EB; */
-    
+@media (max-width: 768px) { /* Adjust the max-width value to fit your mobile breakpoint */
+    .surya_para h1,h2 {
+      font-size: 1.5rem;
+      
+      
+      
+    }
 }
+
+
 *, ::before, ::after {
     box-sizing: inherit;
 }
