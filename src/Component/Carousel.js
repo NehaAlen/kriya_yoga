@@ -31,7 +31,7 @@ export default function Carousel() {
           <div className="quote"><p>"Yoga is a method of transformation... from man the brute, to man the man, to man the God.</p> The Alchemy of Total Transformation."</div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="Images/_DSC2884.jpg" alt="Nature 2" />
+          <img src="Images/India-2012-5371.jpg" alt="Nature 2" />
           <div className="quote"><p>"Live God, Love God, Die God, Be God, God God.</p><p>God God. God God. God God."</p></div>
         </SwiperSlide>
         <SwiperSlide>

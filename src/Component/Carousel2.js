@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Carousel2 = () => {
   return (
@@ -10,7 +11,7 @@ const Carousel2 = () => {
         >
           
           <div class="relative max-w-3xl mx-5 my-5 md:my-20 hover:scale-105">
-          <a href="/Yogiraj_siddhanath">
+          <Link to="/Yogiraj_siddhanath">
             < img
               class="h-100 w-full object-cover rounded-md"
               src="Images/USA-2011-1728.jpg"
@@ -25,10 +26,10 @@ const Carousel2 = () => {
               </h2>
 
             </div>
-            </a>
+            </Link>
           </div>
           <div class="relative max-w-3xl mx-5 my-5 md:my-20 hover:scale-105">
-          <a href="/KundaliniKriyaYoga">
+          <Link to="/KundaliniKriyaYoga">
             < img
               class="h-100 w-full object-cover rounded-md"
               src="Images/USA-2011-3968.jpg"
@@ -43,10 +44,10 @@ const Carousel2 = () => {
               </h2>
 
             </div>
-            </a>
+            </Link>
           </div>
           <div class="relative max-w-3xl mx-5 my-5 mb-10 md:my-20 hover:scale-105">
-          <a href="/SiddhanathSuryaYoga">
+          <Link to="/SiddhanathSuryaYoga">
             < img
               class="h-100 w-full object-cover rounded-md"
               src="Images/USA-2012-7903.jpg"
@@ -61,7 +62,7 @@ const Carousel2 = () => {
               </h2>
 
             </div>
-            </a>
+            </Link>
           </div>
           
         </div>
