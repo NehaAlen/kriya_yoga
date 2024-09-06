@@ -66,13 +66,13 @@ const Yoga = () => {
               <img src="Images/DSCF0940.jpg" alt="Nature 1" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="Images/_SOL0032.jpg" alt="Nature 2" />
+              <img src="Images/India-2012-5479.jpg" alt="Nature 2" />
             </SwiperSlide>
             <SwiperSlide>
               <img src="Images/DSCF9053.jpg" alt="Nature 2" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="Images/shutterstock_2352568737.jpg" alt="Nature 1" />
+              <img src="Images/DSCF1112.jpg" alt="Nature 1" />
             </SwiperSlide>
           </Swiper>
         </div>
