@@ -80,9 +80,9 @@ function SiddhanathSuryaYoga() {
             <SwiperSlide>
               <img src="Images/for FB (2 of 1).jpg" alt="Nature 1" />
             </SwiperSlide>
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <img src="Images/USA-2011-3241.jpg" alt="Nature 2" />
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide>
               <img src="Images/USA-2012-5954.jpg" alt="Nature 2" />
             </SwiperSlide>
