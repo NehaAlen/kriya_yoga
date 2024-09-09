@@ -18,11 +18,11 @@ function EarthPeaceMeditation() {
       {/* Image Section */}
       <div className="m-2 md:m-5">
         <div className="relative w-full border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <img
-            src="Images/USA-2011-5953.JPG"
-            className="w-full h-fit"
-            alt="Nature 1"
-          />
+        <img
+          src="Images/USA-2011-5953.jpg"
+          className="w-full h-fit"
+          alt="Nature 1"
+        />
         </div>
       </div>
       <h2 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-medium mt-5">
