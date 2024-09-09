@@ -7,7 +7,7 @@ function SiddhanathHamsaYoga() {
           <div class="col-start-3 col-span-5">
               <img
                 class="object-cover ml-5 w-96 rounded-t-lg h-auto md:h-auto md:w-72 md:rounded-lg md:rounded-s-lg "
-                src="Images/shutterstock_2352568737.jpg"
+                src="Images/19550056.jpg"
                 alt=""
               />
               <h1 class="text-4xl font-semibold text-start mt-7 text-red-900">Siddhanath Hamsa Yoga</h1> 

@@ -19,7 +19,7 @@ function EarthPeaceMeditation() {
       <div className="m-2 md:m-5">
         <div className="relative w-full border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <img
-            src="Images/shutterstock_2352568737.jpg"
+            src="Images/19550056.jpg"
             className="w-full h-fit"
             alt="Nature 1"
           />
@@ -87,19 +87,19 @@ function EarthPeaceMeditation() {
               navigation={true}
               autoplay={{ delay: 2000, disableOnInteraction: false }}
               modules={[Pagination, Navigation, Autoplay]}
-              className="mySwiper1"
+              className="mySwiper3"
             >
               <SwiperSlide>
-                <img src="Images/shutterstock_2352568737.jpg" alt="Nature 1" />
+                <img src="Images/India-2012-6117.jpg" alt="Nature 1" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="Images/139067.jpg" alt="Nature 2" />
+                <img src="Images/India-2012-8861.jpg" alt="Nature 2" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="Images/OIP.jpg" alt="Nature 3" />
+                <img src="Images/India-2012-0904.jpg" alt="Nature 3" />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="Images/shutterstock_2352568737.jpg" alt="Nature 4" />
+                <img src="Images/USA-2012-7846.jpg" alt="Nature 4" />
               </SwiperSlide>
             </Swiper>
           </div>
