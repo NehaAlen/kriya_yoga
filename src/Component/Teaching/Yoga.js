@@ -65,9 +65,9 @@ const Yoga = () => {
             <SwiperSlide>
               <img src="Images/DSCF0940.jpg" alt="Nature 1" />
             </SwiperSlide>
-            <SwiperSlide>
+            {/* <SwiperSlide>
               <img src="Images/India-2012-5479.jpg" alt="Nature 2" />
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide>
               <img src="Images/DSCF9053.jpg" alt="Nature 2" />
             </SwiperSlide>
