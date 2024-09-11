@@ -26,6 +26,7 @@ function EarthPeaceMeditation() {
         </div>
       </div>
       <h2 className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-medium mt-5">
+        
       Learn the Earth Peace Meditation Online – The Peace Mantra given by Gurunath for Earth Peace
             </h2>
 
